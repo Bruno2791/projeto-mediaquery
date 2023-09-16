@@ -1,23 +1,30 @@
 @charset "UTF8";
 
 *{
- font-family: Arial, Helvetica, sans-serif;
+ font-family: Arial, Helvetica, sans-serif; 
  margin: 0px;
  padding: 0px; 
+
+ /* Reset Gerais nas configurações tirando toda margem, padding e escolhendo tipo de fonte padrão*/ 
 
 }
 body, html{
 background-color: rgb(233, 231, 231);
 
+/*Configuração de cor de fundo do body e HTML.*/
+
 }
 header{
     background-color: grey;
+
+    /* Configuração de cor do cabeçalho*/
 
 }
 header h1 {
   padding: 10px;
   text-align: center;
-
+ 
+  /* Configuções de titulo*/
 }
 .material-symbols-outlined{
 background-color: rgb(78, 78, 78);
@@ -26,10 +33,15 @@ display: block;
 text-align: center;
 padding: 10px;
 cursor: pointer;
+/*Configurações gerais menu Hamburguinho
+Cor de fundo, cor do icone, menu aparecendo, centralização, espaçamento e tipo de cursor ao passar o mouse por cima.*/
 }
 .material-symbols-outlined:hover{
   background-color: white;
   color: black;
+
+  /*Configurações de efeito do menu,
+    ao passar o mouse por cima o mesmo o fundo ficara branco e o icone preto*/
   
 
 }
@@ -37,14 +49,14 @@ cursor: pointer;
 
 
 menu{
-   display: none;
+   display: none; /*Quando o menu for menor que 768px o menu passara a ser o menu humburguinho*/
 }
 menu ul {
-  list-style: none;
+  list-style: none; /* Tirando os pontinhos os pontinhos da lista*/
 
 
 }
-menu ul li a{
+menu ul li a{ /*configurações gerais dos links da lista*/
 display:block;
 padding: 10px;
 text-decoration: none;
@@ -54,7 +66,7 @@ color: white;
 border-top: 2px solid black;
 
 }
-menu ul li a:hover{
+menu ul li a:hover{ /* Configurações de efeito da lista*/
 background-color: gray;
 
 
@@ -62,7 +74,7 @@ background-color: gray;
 }
 
 
-main{
+main{ /* Configurações gerais do conteúdo principal*/
    width: 90vw;
    background-color: white;
    margin: auto;
@@ -71,12 +83,12 @@ main{
    border-radius: 10px;
 }
 
-article> h2{
+article> h2{ /* Configuração do subtítulo*/
     padding-bottom: 20px;
 
 }
 
-article p{
+article p{ /*Configurações gerais dos paragrafos*/
  text-align: justify;
  margin-bottom: 20px;
  text-indent: 20px;
