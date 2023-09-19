@@ -27,7 +27,7 @@ header h1 {
   /* Configuções de titulo*/
 }
 .material-symbols-outlined{
-background-color: rgb(78, 78, 78);
+background-color: blue;
 color: white;
 display: block;
 text-align: center;
@@ -57,7 +57,7 @@ menu ul {
 
 }
 menu ul li a{ /*configurações gerais dos links da lista*/
-display:block;
+
 padding: 10px;
 text-decoration: none;
 text-align: center;
